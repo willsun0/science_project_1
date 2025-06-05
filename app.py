@@ -16,8 +16,6 @@ def image_to_base64(img):
     return img_str
 
 
-
-
 file_rawData = "Complete_Data_WQI.xlsx"
 
 df_water_data = load_water_data(file_rawData)
