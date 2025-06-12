@@ -16,6 +16,8 @@ def image_to_base64(img):
     return img_str
 
 
+
+
 file_rawData = "Complete_Data_WQI.xlsx"
 
 df_water_data = load_water_data(file_rawData)
@@ -143,7 +145,7 @@ with st.container():
 
                 # with st.expander('About', expanded=True):
                 #     st.write('''
-                #         William Sun, 8th Grade, is studying at Newark Academy
+                #         William Sun, 8th Grade, Newark Academy
                 #         ''')
 
                 st.markdown("""
@@ -157,7 +159,7 @@ with st.container():
                 with st.expander('About', expanded=True):
                     st.markdown("""
                         <p style="color:white;">
-                            William Sun, 8th Grade, is studying at Newark Academy
+                            William Sun, Newark Academy
                         </p>
                     """, unsafe_allow_html=True)
 
@@ -169,6 +171,9 @@ with st.container():
                 st.markdown("""
                     <div style='font-size:22px;font-weight: bold;color: white;'>
                         ➤ Input Parameters <span style='font-size:16px;'>(with Lag Features)</span>
+                    </div>
+                    <div style='font-size:16px;color: white;'>
+                        (Parameters can be adjusted by clicking '-' or '+')
                     </div>
                 """, unsafe_allow_html=True)
 
@@ -192,7 +197,7 @@ with st.container():
 
 
             with col[2]:
-                button_predict_wqi = st.button("#### 🔍 Predict WQI")
+                button_predict_wqi = st.button("#### 🔍 Predict WQI \n👉 Click Me!")
                 output_placeholder = st.empty()
 
                 if button_predict_wqi:                    
