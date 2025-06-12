@@ -172,8 +172,8 @@ with st.container():
                     <div style='font-size:22px;font-weight: bold;color: white;'>
                         ➤ Input Parameters <span style='font-size:16px;'>(with Lag Features)</span>
                     </div>
-                    <div style='font-size:16px;color: white;'>
-                        (Parameters can be adjusted by clicking '-' or '+')
+                    <div style='font-size:14px;color: white;'>
+                        (Parameters can be directly typed or adjusted by clicking '-' or '+' if needed)
                     </div>
                 """, unsafe_allow_html=True)
 
